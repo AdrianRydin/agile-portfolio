@@ -1,0 +1,23 @@
+.wrapper {
+    max-width: 1200px;
+}
+
+
+.bg-main-blue {
+    background-color: #1D1D42;
+}
+.bg-second-blue {
+    background-color: #4E2ECF;
+}
+.bg-main-green {
+    background-color: #6FCF97;
+}
+.color-main-blue {
+    color: #1D1D42;
+}
+.color-second-blue {
+    color: #4E2ECF;
+}
+.color-main-green {
+    color: #6FCF97;
+}
