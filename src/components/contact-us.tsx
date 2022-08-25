@@ -9,7 +9,7 @@ function Contact() {
     <ChakraProvider>
     <div className="bg-main-blue flex flex-col justify-start items-center h-auto min-w-full"> 
         <p className='title text-white'>CONTACT US</p>
-        <p className='color-main-green'>Fill in the form and we'll reach out to you</p>
+        <p className='color-main-green small-text'>Fill in the form and we'll reach out to you</p>
     </div>
     </ChakraProvider>
 

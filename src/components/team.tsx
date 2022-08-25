@@ -9,7 +9,7 @@ function Team() {
     <ChakraProvider>
     <div className="bg-main-blue flex flex-col justify-start items-center h-auto min-w-full"> 
         <p className='title text-white'>THE TEAM</p>
-        <p className='color-main-green'>Click to interact</p>
+        <p className='color-main-green small-text'>Click to interact</p>
     </div>
     </ChakraProvider>
 
