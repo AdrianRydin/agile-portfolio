@@ -1,19 +1,20 @@
 import { FormControl, FormLabel, Input, Button } from "@chakra-ui/react";
+import '../util/css/reusable.css'
 
 function ContactForm() {
   return (
-    <div className="contactMainDiv flex items-center">
-      <div className="formDiv flex w-2/5 p-3">
+    <div className="contactMainDiv flex justify-center items-center bg-main-blue">
+      <div className="formDiv flex justify-center items-center p-3 border-white border rounded-xl text-white w-full lg:w-4/12 md:w-8/12">
         <FormControl>
           <FormLabel>Name</FormLabel>
-          <Input type="text" />
+          <Input variant='flushed' type="text" />
           <FormLabel>E-mail</FormLabel>
-          <Input type="email" />
+          <Input variant='flushed' type="email" />
           <FormLabel>Team Member</FormLabel>
-          <Input type="text" />
+          <Input variant='flushed' type="text" />
+          <Button className="mt-10" colorScheme="messenger">Send</Button>
         </FormControl>
       </div>
-      <Button colorScheme="blue">Send</Button>
     </div>
   );
 }
