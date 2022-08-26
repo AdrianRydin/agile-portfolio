@@ -1,4 +1,5 @@
-import TeamCardInterface from "./TeamCardInterface";
+import { TeamCardInterface } from "./TeamCardInterface"
+
 
 interface Team {
     "bakkum" : TeamCardInterface,

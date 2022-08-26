@@ -16,8 +16,8 @@
 .teamCard {
     transition: .3s;
     position: relative;
-    width: 222px;
-    height: 395px;
+    width: 260px;
+    height: 455px;
 }
 
 .teamImage { 
@@ -34,7 +34,7 @@
 }
 
 .teamLine, .teamName, .teamRoleDiv, .teamRole {
-    z-index: 100;
+    z-index: 30;
 }
 
 .teamText {

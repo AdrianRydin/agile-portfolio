@@ -1,4 +1,4 @@
-interface TeamCardInterface {
+export interface TeamCardInterface {
     firstName: string,
     lastName: string,
     role: string,
@@ -12,5 +12,7 @@ interface TeamCardInterface {
 
 }
 
+export interface TeamCardProps {
+    props: TeamCardInterface;
+}
 
-export default TeamCardInterface
