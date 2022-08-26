@@ -1,7 +1,12 @@
-# Portfölj Webbplats
+# PORTFÖLJ WEBBPLATS
 
-## Intro
+## INTRO
 I denna uppgift ska vi bygga en portfölj på webben där man ska kunna se deltagarnas kompetenser och erfarenheter. 
+
+## START PROJECT
+För att komma igång med projektet
+- `npm i`
+- `npm start`
 
 ## Developers 
 - _Felix Bakkum_ (https://github.com/FrontFelix)
