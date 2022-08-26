@@ -1,10 +1,27 @@
 .wrapper {
     max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 
+.headline-font {
+    font-weight: 900;
+    letter-spacing: .8rem;
+}
+
+.underline-font {
+    font-weight: 200;
+    letter-spacing: .3rem;
+}
+
 .bg-main-blue {
     background-color: #1D1D42;
+}
+
+.color-white {
+    color: #FFFFFF;
 }
 
 .bg-50 {

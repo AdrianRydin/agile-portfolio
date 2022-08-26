@@ -7,7 +7,7 @@ function HoverCard(member : TeamCardProps) {
         document.getElementById(`${member.props.firstName}`)?.classList.toggle('hidden')
     }
     return (
-        <div className="teamBackground flex-col justify-around z-50 absolute bg-50 w-full h-4/5 p-3">
+        <div className="teamBackground opacity-100 lg:opacity-0 flex-col justify-around z-50 absolute bg-50 w-full h-4/5 p-3">
         <p className="text-center text-white select-none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
         <div onClick={() => toggleDiv()} className="flex flex-wrap  py-3 justify-center cursor-pointer select-none">
           <CircularProgress
