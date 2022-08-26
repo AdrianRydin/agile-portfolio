@@ -1,11 +1,16 @@
 interface TeamCardInterface {
     firstName: string,
     lastName: string,
-    role: string
-    // javascript: number,
-    // html: number,
-    // css: number,
-    // uiUx: number
+    role: string,
+    image: string
+    react: number,
+    html: number,
+    css: number,
+    uiUx: number,
+    typescript: number,
+    node: number
+
 }
+
 
 export default TeamCardInterface

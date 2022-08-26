@@ -2,14 +2,22 @@ import * as React from 'react'
 import './util/css/reusable.css'
 // import { ChakraProvider } from '@chakra-ui/react'
 import TeamCard from './components/TeamCard';
+import { teamMember } from './util/member';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
   return (
-    // <ChakraProvider>
+    <ChakraProvider>
     <div className="bg-main-blue">
-      <TeamCard firstName='Felix' lastName='Bakkum' role='Lead Developer' />
+      <TeamCard props={teamMember.bakkum} />
+      <TeamCard props={teamMember.meiner} />
+      {/* {Object.values(teamMember).map((member, index) => {
+        return(
+          <TeamCard props={member} />
+        )
+      })} LÄGG TILL DETTA FÖR ATT LOOPA UT ALLA MEMBERS*/}
     </div>
-    // </ChakraProvider>
+     </ChakraProvider>
 
     
   );
