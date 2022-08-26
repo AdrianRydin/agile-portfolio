@@ -1,13 +1,12 @@
-import * as React from 'react'
-
-import { ChakraProvider } from '@chakra-ui/react'
+import './util/css/reusable.css';
+// import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react';
+import TeamPage from './pages/TeamPage';
 
 function App() {
   return (
     <ChakraProvider>
-    <div className="bg-blue-300">
-   
-    </div>
+      <TeamPage />
     </ChakraProvider>
 
     

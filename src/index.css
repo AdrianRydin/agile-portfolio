@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #1D1D42 !important;
+}
+
+.teamCard:hover .teamBackground {
+    transition: 0.2s;
+    opacity: 1;
+
+}
+
+.teamCard {
+    transition: .3s;
+    position: relative;
+    width: 260px;
+    height: 455px;
+}
+
+.teamImage { 
+    object-fit: cover;
+    object-position: 10% 50%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.teamLine {
+    width: 40px;
+    height: 3px;
+}
+
+.teamLine, .teamName, .teamRoleDiv, .teamRole {
+    z-index: 30;
+}
+
+.teamText {
+    position: absolute;
+    bottom: 0;
+}
+
+.teamRole {
+    font-weight: 100;
+}
+
+.teamName {
+    font-weight: 700;
+    font-size: 20px;
+}
+.teamBackground {
+    transition: .2s;
+    display: flex;
+}
