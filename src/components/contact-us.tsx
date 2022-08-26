@@ -1,19 +1,18 @@
-import * as React from 'react'
-import '../util/css/reusable.css'
-import '../index.css'
-
-import { ChakraProvider } from '@chakra-ui/react'
+import "../index.css";
+import "../util/css/reusable.css";
+import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
-    <ChakraProvider>
-    <div className="bg-main-blue flex flex-col justify-start items-center h-auto min-w-full"> 
-        <p className='title text-white'>CONTACT US</p>
-        <p className='color-main-green small-text'>Fill in the form and we'll reach out to you</p>
+    <>
+    <div className="bg-main-blue flex flex-col justify-start items-center h-auto min-w-full">
+      <p className="title text-white">CONTACT US</p>
+      <p className="color-main-green small-text mb-10">
+        Fill in the form and we'll reach out to you
+      </p>
     </div>
-    </ChakraProvider>
-
-    
+    <ContactForm/>
+    </>
   );
 }
 
