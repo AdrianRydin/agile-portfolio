@@ -5,8 +5,8 @@ import "../util/css/reusable.css";
 function Landing() {
   return (
     <div className="wrapper">
-    <div className="bg-main-blue flex flex-col lg:flex-row pt-32 pb-20 landingPage">
-      <div className="flex flex-col w-1/2 justify-start items-start self-start">
+    <div className="bg-main-blue flex flex-col lg:flex-row pt-0 pb-6 lg:pt-32 lg:pb-20 lg:h-screen">
+      <div className="flex flex-col md:pl-10 md:pr-10 lg:w-1/2 justify-center items-center lg:self-start lg:justify-start lg:items-start">
       <p className="color-main-green small-text">digital-agency</p>
       <p className="title-small text-white">DBSTUDIO</p>
       <p className="title text-white mt-10 text-center lg:text-left">
