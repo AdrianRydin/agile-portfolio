@@ -4,7 +4,7 @@ import "../util/css/reusable.css";
 function ContactForm() {
   return (
     <div className="contactMainDiv flex justify-center items-center bg-main-blue">
-      <div className="formDiv flex justify-center items-center p-3 border-white border rounded-xl text-white w-full lg:w-4/12 md:w-8/12">
+      <div className="formDiv flex justify-center items-center p-3 border-white border rounded-xl text-white w-full lg:w-4/12 md:w-10/12">
         <FormControl>
           <FormLabel>Name</FormLabel>
           <Input variant="flushed" type="text" className="mb-5"/>

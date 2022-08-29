@@ -6,14 +6,12 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 function Landing() {
   return (
-    <ChakraProvider>
-    <div className="bg-main-blue flex flex-col justify-start items-center h-auto min-w-full"> 
+    <div className="bg-main-blue flex flex-col justify-start items-center h-auto min-w-full md:p-24"> 
         <p className='color-main-green small-text'>digital-agency</p>
         <p className='title-small text-white'>DBSTUDIO</p>
-        <p className='title text-white'>WE CREATE NICE, CONVENIENT, 
+        <p className='title text-white text-center md:pt-12'>WE CREATE NICE, CONVENIENT, 
         AND PROFTITABLE WEBSITES WITH REACT</p>
     </div>
-    </ChakraProvider>
 
     
   );
