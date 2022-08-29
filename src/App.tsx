@@ -1,6 +1,6 @@
-import Contact from "./components/contact-us";
-import FindUs from "./components/find-us";
-import Landing from "./components/landing-page";
+import Contact from "./components/ContactUs";
+import FindUs from "./components/FindUs";
+import Landing from "./components/LandingPage";
 import TeamPage from "./pages/TeamPage";
 import "./util/css/reusable.css";
 

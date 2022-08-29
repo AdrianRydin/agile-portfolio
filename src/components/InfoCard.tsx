@@ -7,7 +7,7 @@ function InfoCard(member : TeamCardProps) {
         document.getElementById(`${member.props.firstName}`)?.classList.toggle('hidden')
     }
     return (
-      <div id={member.props.firstName} className="hidden clickableDiv absolute w-full h-full bg-second-blue z-50 p-3">
+      <div id={member.props.firstName} className="hidden clickableDiv absolute w-full h-full bg-purp z-50 p-3">
         <CloseButton color="white" onClick={() => toggleDiv()} className="absolute right-0 top-0" />
         <p className="color-main-green">HTML</p>
         <p className="text-xs pb-2 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, modi?</p>
