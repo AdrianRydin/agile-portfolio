@@ -1,6 +1,6 @@
+import ContactForm from "../components/ContactForm";
 import "../index.css";
 import "../util/css/reusable.css";
-import ContactForm from "./ContactForm";
 
 function Contact() {
   return (

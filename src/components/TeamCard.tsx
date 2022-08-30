@@ -2,7 +2,6 @@ import { TeamCardProps } from "../util/interface/TeamCardInterface";
 import HoverCard from "./HoverCard";
 import InfoCard from "./InfoCard";
 
-
 function TeamCard(member: TeamCardProps) {
   return (
     <div className="teamCard mx-auto md:mx-0">
