@@ -4,8 +4,10 @@ import { teamMember } from "../util/member";
 function TeamPage() {
   return (
     <div className="wrapper">
-        <h1 className="color-white title text-white p-0 headline-font text-center lg:text-left select-none">THE TEAM</h1>
-        <h2 className="color-main-green pb-10 underline-font text-center lg:text-left select-none">Click to interact</h2>
+      <p id="teamDiv" className="title text-white text-center lg:text-left">THE TEAM</p>
+      <p className="color-main-green small-text mb-10 text-center lg:text-left">
+        Click to interact
+      </p>
       <div className="flex flex-col md:justify-center md:flex-row md:flex-wrap gap-16">
         {Object.values(teamMember).map((member, index) => {
           return <TeamCard props={member} />;
