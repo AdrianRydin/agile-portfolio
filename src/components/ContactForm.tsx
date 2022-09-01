@@ -4,8 +4,8 @@ import "../util/css/reusable.css";
 function ContactForm() {
   const toast = useToast();
   return (
-    <div className="contactMainDiv flex justify-center items-center bg-main-blue">
-      <div className="formDiv flex justify-center items-center p-3 border-white border rounded-xl text-white w-full lg:w-4/12 md:w-10/12">
+    <div className="flex justify-center items-center bg-main-blue">
+      <div className="flex justify-center items-center border-white border rounded-xl text-white w-full lg:w-4/12 md:w-10/12">
         <FormControl
           isRequired
           className="!px-5 !py-2 flex flex-col items-center"
@@ -41,7 +41,7 @@ function ContactForm() {
               transition={"500ms"}
               _hover={{ background: "#6FCF97" }}
               rounded="3xl"
-              className="w-1/3 mx-6"
+              className="w-1/3 !px-12"
               bg={"#4E2ECF"}
             >
               SEND
