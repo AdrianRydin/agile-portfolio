@@ -4,8 +4,13 @@ import { teamMember } from "../util/member";
 function TeamPage() {
   return (
     <div className="wrapper">
-      <p id="teamDiv" className="title text-white text-center lg:text-left">THE TEAM</p>
-      <p className="color-main-green small-text mb-10 text-center lg:text-left">
+      <p
+        id="teamDiv"
+        className="title text-white text-center lg:text-left md:pl-10"
+      >
+        THE TEAM
+      </p>
+      <p className="color-main-green small-text mb-10 text-center lg:text-left md:pl-10">
         Click to interact
       </p>
       <div className="flex flex-col md:justify-center md:flex-row md:flex-wrap gap-16">
