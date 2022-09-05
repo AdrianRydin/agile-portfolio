@@ -8,7 +8,7 @@ function ContactForm() {
       <div className="formDiv flex justify-center items-center p-3 border-white border rounded-xl text-white w-full lg:w-4/12 md:w-10/12">
         <form
           onSubmit={(e) => {
-            toast.success("MESSAGE SENT", {  position: "bottom-center",  });
+            toast.success("Message sent, we will reach out to you shortly!", {  position: "bottom-center",  });
             e.preventDefault();
           }}
         >

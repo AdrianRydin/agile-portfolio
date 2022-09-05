@@ -46,14 +46,14 @@ function Landing() {
               onClick={contactScroll}
               transition={"800ms"}
               _hover={{
-                background: "#6FCF97",
-                boxShadow: "0px 0px 30px #6FCF97",
+                background: "#4E2ECF",
+                boxShadow: "0px 0px 30px #4E2ECF",
               }}
               px="100"
-              boxShadow={"0px 0px 30px #4E2ECF"}
+              boxShadow={"0px 0px 30px #6FCF97"}
               rounded="3xl"
               className="mt-0 mb-6 md:my-6  lg:mb-0 w-36 text-white"
-              bg={"#4E2ECF"}
+              bg={"#6FCF97"}
             >
               CONTACT US
             </Button>

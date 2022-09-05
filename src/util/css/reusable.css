@@ -29,13 +29,16 @@
 .bg-purp {
   background-color: #4e2ecf;
 }
+.bg-purp-fade {
+  background-color: #4e2ecf;
+}
 .bg-main-green {
   background-color: #6fcf97;
 }
 .color-main-blue {
   color: #1d1d42;
 }
-.color-second-blue {
+.color-purp {
   color: #4e2ecf;
 }
 .color-main-green {

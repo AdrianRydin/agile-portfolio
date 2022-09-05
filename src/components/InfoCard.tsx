@@ -10,7 +10,7 @@ function InfoCard(member: TeamCardProps) {
   return (
     <div
       id={member.props.firstName}
-      className="hidden clickableDiv absolute w-full h-full bg-purp z-50 p-3"
+      className="hidden clickableDiv absolute w-full h-full rounded-lg bg-main-blue z-50 p-3 border-none"
     >
       <CloseButton
         color="white"

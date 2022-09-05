@@ -71,6 +71,11 @@ body {
   width: 1000px;
 }
 
-.css-1mz5wqe > option, .css-1mz5wqe > optgroup {
-    background-color: #1d1d42 !important;
+.css-1mz5wqe > option,
+.css-1mz5wqe > optgroup {
+  background-color: #1d1d42 !important;
+}
+
+.clickableDiv {
+  box-shadow: #6fcf97 0px 0px 1px;
 }
