@@ -59,3 +59,11 @@
   font-weight: 200;
   font-size: 18px;
 }
+
+.Toastify__progress-bar--success {
+  background-color: #6fcf97 !important;
+}
+
+.Toastify__toast-icon > svg {
+  fill: #6fcf97;
+}
