@@ -1,7 +1,6 @@
-import { Button, FormControl, Input, Select } from "@chakra-ui/react";
-import { toast } from "react-toastify";
+import { Button, FormControl, Input, Select, Textarea } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 import "../util/css/reusable.css";
-import {useNavigate} from "react-router-dom"
 
 function ContactForm() {
 
@@ -20,7 +19,7 @@ function ContactForm() {
               variant="flushed"
               type="text"
               className="mb-5"
-              placeholder="YOUR NAME"
+              placeholder="NAME"
               required
             />
             <Input
@@ -29,6 +28,13 @@ function ContactForm() {
               className="mb-5"
               placeholder="E-MAIL"
               required
+            />
+            <Textarea
+              variant="flushed"
+              className="mb-5"
+              placeholder="MESSAGE"
+              required
+              resize={'none'}
             />
             <div className="flex items-center justify-center w-fit">
               <Select variant="flushed" placeholder="TEAM MEMBER" required>
