@@ -1,16 +1,16 @@
 import { Button, FormControl, Input, Select } from "@chakra-ui/react";
 import { toast } from "react-toastify";
 import "../util/css/reusable.css";
+import {useNavigate} from "react-router-dom"
 
 function ContactForm() {
+
+  const navigate = useNavigate()
   return (
     <div className="contactMainDiv flex justify-center items-center bg-main-blue">
       <div className="formDiv flex justify-center items-center p-3 border-white border rounded-xl text-white w-full lg:w-4/12 md:w-10/12">
         <form
-          onSubmit={(e) => {
-            toast.success("Message sent, we will reach out to you shortly!", {  position: "bottom-center",  });
-            e.preventDefault();
-          }}
+          onSubmit={(e) => navigate('/sent')}
         >
           <FormControl
             isRequired={true}
