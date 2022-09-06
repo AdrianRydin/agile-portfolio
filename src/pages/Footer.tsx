@@ -1,9 +1,9 @@
 function Footer() {
   return (
     <div className="wrapper">
-      <div className="flex flex-row w-full mx-20 mt-24 justify-between align-center">
+      <div className="flex flex-col gap-8 md:gap-0 md:flex-row w-full justify-between">
         <div>
-          <p className="title-small text-white text-center">DBSTUDIO AB</p>
+          <p className="title text-white text-center lg:text-left md:pl-10">DBSTUDIO AB</p>
         </div>
         <div>
           <p className="small-text text-white text-center">hello@dbs.se</p>

@@ -4,10 +4,10 @@ import "../util/css/reusable.css";
 
 function Contact() {
   return (
-    <>
+    <div className="wrapper">
       <div
         id="contactDiv"
-        className="bg-main-blue flex flex-col justify-start items-center h-auto w-full wrapper lg:items-start"
+        className="bg-main-blue flex flex-col justify-start items-center h-auto w-full  lg:items-start"
       >
         <p className="title text-white text-center lg:text-left md:pl-10">
           CONTACT US
@@ -17,7 +17,7 @@ function Contact() {
         </p>
       </div>
       <ContactForm />
-    </>
+    </div>
   );
 }
 
