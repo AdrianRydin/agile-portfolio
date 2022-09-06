@@ -4,7 +4,7 @@ function MessageSent() {
     const navigate = useNavigate()
     setTimeout(() => {
         navigate("/")
-    }, 50000)
+    }, 5000)
     return(
         <div className="flex flex-col mt-32">
             <div className="wrapper">
