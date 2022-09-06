@@ -1,14 +1,18 @@
 import "../index.css";
 import "../util/css/reusable.css";
+import Footer from "./Footer";
 
 function FindUs() {
   return (
     <div className="bg-main-blue flex flex-col justify-start items-center h-auto w-full wrapper lg:items-start">
-      <p className="lg:text-left title text-white pt-8 text-center lg:text-left md:pl-10">
+      <p className="lg:text-left title text-white pt-8 text-center md:pl-10">
         FIND US
       </p>
-      <p className="lg:text-left color-main-green small-text pb-8 text-center lg:text-left md:pl-10">
-        Anders Personsgatan 18, 416 64 Göteborg
+      <p className="lg:text-left color-main-green small-text text-center md:pl-10">
+        Share your ideas over a cup of coffee!
+      </p>
+      <p className="lg:text-left color-main-green small-text pb-8 text-center md:pl-10">
+        We're open 8-17 every weekday.
       </p>
       <div className="flex justify-center w-full">
         <iframe
@@ -17,12 +21,6 @@ function FindUs() {
           height="350"
           loading="lazy"
         ></iframe>
-      </div>
-      <div className="footerdiv p-10 flex justify-center items-center flex-col w-full">
-        <p className="color-main-green small-text text-center">
-          digital-agency
-        </p>
-        <p className="title-small text-white text-center">DBSTUDIO</p>
       </div>
     </div>
   );

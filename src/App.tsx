@@ -4,7 +4,8 @@ import FindUs from "./pages/FindUs";
 import Landing from "./pages/LandingPage";
 import TeamPage from "./pages/TeamPage";
 import "./util/css/reusable.css";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <TeamPage />
       <Contact />
       <FindUs />
+      <Footer />
     </div>
   );
 }
