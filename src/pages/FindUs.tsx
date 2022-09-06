@@ -4,10 +4,10 @@ import "../util/css/reusable.css";
 function FindUs() {
   return (
     <div className="bg-main-blue flex flex-col justify-start items-center h-auto w-full wrapper lg:items-start">
-      <p className="lg:text-left title text-white pt-8 text-center lg:text-left">
+      <p className="lg:text-left title text-white pt-8 text-center lg:text-left md:pl-10">
         FIND US
       </p>
-      <p className="lg:text-left color-main-green small-text pb-8 text-center lg:text-left">
+      <p className="lg:text-left color-main-green small-text pb-8 text-center lg:text-left md:pl-10">
         Anders Personsgatan 18, 416 64 Göteborg
       </p>
       <div className="flex justify-center w-full">
