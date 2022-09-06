@@ -36,8 +36,8 @@ function ContactForm() {
               required
               resize={'none'}
             />
-            <div className="flex items-center justify-center w-fit">
-              <Select variant="flushed" placeholder="TEAM MEMBER" required>
+            <div className="flex flex-col gap-5 md:flex-row items-center justify-center w-fit">
+              <Select id="selectMenu" variant="flushed" placeholder="TEAM MEMBER" required>
                 <option value="option1">FELIX</option>
                 <option value="option2">EMIL</option>
                 <option value="option3">EDWIN</option>
@@ -49,7 +49,7 @@ function ContactForm() {
                 transition={"500ms"}
                 _hover={{ background: "#6FCF97" }}
                 rounded="3xl"
-                className="w-1/3 mx-6"
+                className="w-2/5 mx-6"
                 bg={"#4E2ECF"}
               >
                 SEND

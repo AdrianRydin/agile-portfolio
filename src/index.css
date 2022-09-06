@@ -79,3 +79,12 @@ body {
 .clickableDiv {
   box-shadow: #6fcf97 0px 0px 1px;
 }
+
+#selectMenu {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+#selectMenu::-webkit-scrollbar {
+  display: none;
+}

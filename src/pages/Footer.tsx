@@ -3,10 +3,14 @@ function Footer() {
     <div className="wrapper">
       <div className="flex flex-col gap-8 md:gap-0 md:flex-row w-full justify-between">
         <div>
-          <p className="title text-white text-center lg:text-left md:pl-10">DBSTUDIO AB</p>
+          <p className="title text-white text-center lg:text-left md:pl-10">
+            DBSTUDIO AB
+          </p>
         </div>
         <div>
-          <p className="small-text text-white text-center">hello@dbs.se</p>
+          <p className="small-text text-white text-center ">
+            <a className="underline" href="mailto:hello@dbs.se">hello@dbs.se</a>
+          </p>
           <p className="small-text text-white text-center">+4670-000 00 00</p>
         </div>
         <p className="small-text text-white text-center">
